@@ -1,5 +1,6 @@
 year = int(input())
-
+ 
+# Check Leap Year or Not
 if year % 4 == 0 and year % 100 != 0:
     print("yes")
 elif year % 100 == 0:
